@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" viewBox="0 0 960 960">
+	<circle fill="#626261" cx="480.7" cy="481.2" r="479.5">
+		<animate fill="remove" restart="always" calcMode="linear" additive="replace" accumulate="none" repeatCount="indefinite" attributeName="fill" keyTimes="0; 0.5; 1" values="#626261; #6e6e6e; #626261" dur="2s"/>
+	</circle>
+	<path fill="#BDBCBC" d="M841 765.4H682.3L480.7 316.6 279 765.4H120.6l279.4-622 .6.8L696.4 444"/>
+	<path fill="#55C1F0" d="M696.6 444L328.4 70.6H481c42.7 0 63 24 75.2 54.5L696.6 444z"/>
+</svg>
