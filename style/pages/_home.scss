@@ -9,8 +9,15 @@ body {
 a {
   color: #35333a;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  to {
+    opacity: 1;
+  }
+}
 
 .svg-background {
   width: 100%;
@@ -53,6 +60,11 @@ canvas {
 
 code {
   color: #E0E0E0;
+}
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .social {
