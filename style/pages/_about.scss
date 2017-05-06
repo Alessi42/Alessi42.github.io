@@ -2,12 +2,12 @@
   background: $light-grey;
   width: 100%;
   height: 30em;
-  clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   padding-top: 12%;
 }
 
 .clip {
-  filter: drop-shadow(5px 5px 0px $logo-blue) drop-shadow(5px -5px 0px $logo-blue) drop-shadow(-5px 5px 0px $logo-blue) drop-shadow(-5px -5px 0px $logo-blue);
+  filter: drop-shadow(4px 4px 0px $light-blue) drop-shadow(4px -4px 0px $light-blue) drop-shadow(-4px 4px 0px $light-blue) drop-shadow(-4px -4px 0px $light-blue);
 }
 /* default styles here for older browsers.
        I tend to go for a 600px - 960px width max but using percentages
