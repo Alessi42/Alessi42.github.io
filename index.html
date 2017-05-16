@@ -15,6 +15,30 @@
   <meta name="application-name" content="~Jacob Santry~">
   <meta name="msapplication-config" content="./favicon/browserconfig.xml">
   <meta name="theme-color" content="#626261">
+  <!-- Start of Async Drift Code -->
+  <script>
+    ! function() {
+      var t;
+      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+        t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+        t.factory = function(e) {
+          return function() {
+            var n;
+            return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e, n, o, i;
+          e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+        });
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('gm9iw9fi42xz');
+  </script>
+  <!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -27,7 +51,7 @@
         </div>
         <div class="main">
           <h1 class="name-text">Jacob Santry</h1>
-          <h1 class="typewriter">I try to make things.</h1>
+          <h1 class="typewriter">[insert witty tagline]</h1>
           <div class="social">
             <a class="social-link" href="https://github.com/Alessi42"><i class="fa fa-lg fa-github"></i></a>
             <a class="social-link" href="https://reddit.com/u/Alessi42"><i class="fa fa-lg fa-reddit-alien"></i></a>
@@ -61,22 +85,20 @@
           <div>
             <div>
               <img src="https://squancher.uk.to/banner.jpg" alt="Squancher">
-              <h1><a href="https://squancher.uk.to/">Squancher</a></h1> A subtitle screenshot search engine similar to the wonderful frinkiac built with regular HTML, vanilla javascript front end with a Golang REST api and mysql backend. is designed to be fast (
-              <50ms Api responses) and lightweight to run on
-                my Raspberry Pi</span>
+              <h1><a href="https://squancher.uk.to/">Squancher</a></h1>One of my more recent *finished* projects at this time; A subtitle screenshot search engine similar to the wonderful frinkiac built with regular HTML, vanilla javascript front end with a Golang REST api and mysql backend. is designed to
+              be fast (
+              <50ms Api responses) and lightweight to run on my Raspberry Pi</span>
             </div>
             <hr />
             <div>
               <h1><a href="http://joeswebserver.uk.to"><u>JoesWebServer</u></a></h1>
-              <h1 class="comment">Dont ask about the name...</h1>
-              You will find most, if not all of my projects on GitHub or on <a href="http://joeswebserver.uk.to"><u>Joes</u></a> my little dropbox (a default index of page with a secure PHP login portal for uploading files and managing folders). Joeswebserver is
-              also host to |Working Progress| <a href="http://joeswebserver.uk.to/fish/2048-game/"><u>Fish plays 2048 </u></a> a python and websockets implementation of the game 2048 which uses OpenCV to track and play the game depending the fishs position
-              (or since I haven't got a fish yet; me prancing around trying to debug). Enjoy!
+              <h1 class="comment">Dont ask about the name...</h1> You will find most, if not all of my projects on GitHub or on <a href="http://joeswebserver.uk.to"><u>Joes</u></a> my little dropbox (a default index of page with a secure PHP login portal for uploading files and managing folders). Joeswebserver
+              is also host to |Working Progress| <a href="http://joeswebserver.uk.to/fish/2048-game/"><u>Fish plays 2048 </u></a> a python and websockets implementation of the game 2048 which uses OpenCV to track and play the game depending the fishs
+              position (or since I haven't got a fish yet; me prancing around trying to debug). Enjoy!
             </div>
             <hr />
             <div>
-              <h1>Skills</h1>
-              Languages:
+              <h1>Skills</h1> Languages:
               <ul>
                 <li>
                   Python: Poficient. MITx's 6.00.1x Python Computer Science course.
@@ -85,7 +107,7 @@
                   Javascript: Proficient in Vanilla Javascript, Jquery few projects in React but interested in learning.
                 </li>
                 <li>
-                  HTML5/CSS/SASS: Advanced, when using a bootstrap. Familiar with many frameworks such as bootstrap, materiaise as well as SASS compilers.
+                  HTML5/CSS/SASS: Advanced, when using a framework (please don't ask me to vertically align a &lt;div&gt; without one). Familiar with many frameworks such as bootstrap, materiaise as well as SASS compilers.
                 </li>
                 <li>
                   PHP: Proficient, but would prefer to stay a way.
@@ -98,6 +120,12 @@
                 </li>
                 <li>
                   .NET: Basic knowlege mainly through modification to existing projects and forks. I am yet to find a project best suited to .NET/C# ( mostly as many of my projects run on an ARM linux server).
+                </li>
+              </ul>
+              Software:
+              <ul>
+                <li>
+                  {this.state.software}
                 </li>
               </ul>
             </div>
