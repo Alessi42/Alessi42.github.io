@@ -595,6 +595,12 @@ hr {
 .social-link:hover {
   color: #8fd7fb; }
 
+.social-link.github:hover {
+  color: #6e5494; }
+
+.social-link.reddit:hover {
+  color: #ff5600; }
+
 .social-link.stack-overflow:hover {
   color: #ff9900; }
 

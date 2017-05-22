@@ -2,6 +2,7 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 /* Reset */
+
 body {
   background: #212121;
 }
@@ -85,6 +86,14 @@ hr {
   color: $hover-color;
 }
 
+.social-link.github:hover {
+  color: $github-purple;
+}
+
+.social-link.reddit:hover {
+  color: $reddit-orange;
+}
+
 .social-link.stack-overflow:hover {
   color: $stack-overflow-color;
 }
@@ -150,6 +159,7 @@ hr {
   }
 }
 /* DEMO-SPECIFIC STYLES */
+
 .typewriter {
   font-family: monospace, monospace;
   color: #E0E0E0;
