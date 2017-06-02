@@ -598,6 +598,9 @@ hr {
 .social-link.stack-overflow:hover {
   color: #ff9900; }
 
+.social-link.github:hover {
+  color: #6e5494; }
+
 @media only screen and (min-width: 960px) {
   /* styles for browsers larger than 960px; */ }
 @media only screen and (min-width: 1440px) {
@@ -674,6 +677,9 @@ hr {
     border-color: transparent; }
   50% {
     border-color: #fff; } }
+.Avatar {
+  background-color: inherit !important; }
+
 .portfolio {
   background: #fff;
   color: #3c4858;

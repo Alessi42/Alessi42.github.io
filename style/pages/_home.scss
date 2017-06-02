@@ -88,6 +88,11 @@ hr {
 .social-link.stack-overflow:hover {
   color: $stack-overflow-color;
 }
+
+.social-link.github:hover {
+  color: $github-purple;
+}
+
 @media only screen and (min-width:960px) {
   /* styles for browsers larger than 960px; */
 }
@@ -188,4 +193,8 @@ hr {
   50% {
     border-color: #fff;
   }
+}
+
+.Avatar {
+  background-color: inherit !important;
 }
